@@ -25,51 +25,83 @@
             </i>
         </div>
         <ul class="navbar__items">
-            <a href="#">
+            <a href="./brandstory.html">
                 <li class="navbar__menu">Brand story</li>
             </a>
-            <a href="#">
+            <a href="./menu.html">
                 <li class="navbar__menu">Menu</li>
             </a>
-            <a href="#">
+            <a href="./franchise.html">
                 <li class="navbar__menu">Franchise</li>
             </a>
-            <a href="#">
+            <a href="./store.html">
                 <li class="navbar__menu">Store</li>
             </a>
-            <a href="#">
+            <a href="./mall.html">
                 <li class="navbar__menu">Mall</li>
             </a>
-            <a href="#">
+            <a href="./news.html">
                 <li class="navbar__menu">News</li>
             </a>
         </ul>
     </div>
     </nav>
     <!--banner-->
-        <div class="banner__img">
-            <img src="./images/slide.jpg" alt="slide image" style="width: 100%; height: 600px;">
+        <section class="container">
+            <div class="banner fade">
+                <a href="./menu.html">
+                <img src="./images/slide.jpg" alt="slide1" style="width: 100%; height: 600px;">
+                </a>    
+            </div>
+            <div class="banner fade">
+                <a href="./menu.html">
+                <img src="./images/slide2.jpg" alt="slide2" style="width: 100%; height: 600px;">
+                </a>    
+            </div>
+            <div class="banner fade">
+                <a href="./menu.html">
+                <img src="./images/slide3.jpg" alt="slide3" style="width: 100%; height: 600px;">
+                </a>    
+            </div>
+            <!-- 다음과 이전버튼-->
+            <a class="prev" onclick="plusSlides(-1)">
+                <i class="fa-solid fa-angle-left" style="font-size: 55px;"></i>
+            </a>
+            <a class="next" onclick="plusSlides(+1)">
+                <i class="fa-solid fa-angle-right" style="font-size: 55px;"></i>
+            </a>
+        </section>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            
         </div>
     <!--content-->
     <secction>
         <div class="content__top">
             <div class="content__left">
+                <a href="./franchise.html">
                 <div class="content__left-top">
                     <i class="fa-solid fa-store"></i>
                     <h2>창업문의 1577-9073</h2>
                 </div>
                 <div class="content__left-bottom"></div>
+                </a>    
             </div>
             <div class="content__right">
+                <a href="./store.html">
                 <div class="content__right-top">
                     <i class="fa-solid fa-location-dot"></i>
                     <h2>Store</h2>
                 </div>
                 <div class="content__right-bottom"></div>
+                </a>    
             </div>
         </div>
         <div class="content__bottom">
             <div class="content__left">
+                <a href="./mall.html">
                 <div class="content__left-top left__top">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <h2>Droptop Mall</h2>
@@ -77,10 +109,11 @@
                 <div class="content__bottom--left__bottom content__positon">
                     <p class="content__text">DROPTOP의 다양한 커피 및 음료들을 쿠폰과 함께 만나보세요.</p>
                 </div>
-                
+                </a>
             </div>
             <div class="content__notice">
                 <div class="event">
+                    <a href="#">
                     <div class="event__title">
                         <i class="fa-solid fa-gift"></i>
                         <h2>EVENT</h2>
@@ -99,8 +132,10 @@
                             <p class="event__content">2021.10.27</p>
                         </div>
                     </div>
+                    </a>    
                 </div>
                 <div class="notice">
+                    <a href="./news.html">
                     <div class="notice__title">
                         <i class="fa-solid fa-bullhorn"></i>
                         <h2>NOTICE</h2>
@@ -119,14 +154,21 @@
                             <p class="notice__content">2021.10.27</p>
                         </div>
                     </div>
+                    </a>    
                 </div>
             </div>
         </div>
         <div class="sns__line"></div>
         <div class="sns">
+            <a href="https://www.instagram.com/droptop_official/">
             <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/cafedroptopkr/">
             <i class="fa-brands fa-facebook-square"></i>
+            </a>
+            <a href="https://twitter.com/cafedroptop?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3Acafedroptop%7Ctwgr%5EeyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2hvcml6b25fdHdlZXRfZW1iZWRfOTU1NSI6eyJidWNrZXQiOiJodGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3NwYWNlX2NhcmQiOnsiYnVja2V0Ijoib2ZmIiwidmVyc2lvbiI6bnVsbH19&ref_url=http%3A%2F%2Fcafedroptop.com%2Fn%2Fkr%2Fsrc%2Fevent.php%3Fc%3D050602%26s%3Dnews%2Fsocial2">
             <i class="fa-brands fa-twitter-square"></i>
+            </a>    
         </div>
     </secction>
     <!--footer-->
